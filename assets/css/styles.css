@@ -20,8 +20,35 @@ html, body {
 .main-content{
 	width: 100%;
 	max-width: 800px;
+	font-size: 1.5em;
 	margin: 0 auto -40px;
-	font-size: 7em;
+	text-align: center;
+}
+
+.word-to-guess {
+	width: 100%;
+	margin-top: 20px;
+	border: 2px black solid;
+}
+
+.character-of-word{
+	padding: 10px;
+	display: inline-block;
+}
+
+.user-message {
+	margin-top: 20px;
+	border: 2px black solid;
+}
+
+.guesses-remaining{
+	margin-top: 20px;
+	border: 2px black solid;
+}
+
+.characters-guessed{
+	margin-top: 20px;
+	border: 2px black solid;
 }
 
 
